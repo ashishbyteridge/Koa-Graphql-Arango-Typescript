@@ -1,0 +1,42 @@
+{
+  "name": "koa-graphql-arango-typescript",
+  "version": "1.0.0",
+  "description": "A simple application to learn the Koa framework with typescript.",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishhbyteridge/Koa-Graphql-Arango-Typescript.git"
+  },
+  "keywords": [
+    "Koa",
+    "Typescript",
+    "Graqhql"
+  ],
+  "author": "Ashish Kumar Hota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashishhbyteridge/Koa-Graphql-Arango-Typescript/issues"
+  },
+  "homepage": "https://github.com/ashishhbyteridge/Koa-Graphql-Arango-Typescript#readme",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.11",
+    "@types/koa-bodyparser": "^4.3.7",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-logger": "^3.1.2",
+    "dotenv": "^16.0.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
